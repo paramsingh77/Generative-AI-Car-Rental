@@ -1,0 +1,56 @@
+@import url('https://db.onlinewebfonts.com/c/c4e765424706ec43739906cc82cb8c77?family=Albra+Grotesk+Regular-Traced-Web');
+.option-container{
+    margin-top: 100px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Albra Grotesk Regular-Traced-Web";
+}
+
+.card-container{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.card{
+    background-color: rgb(187, 185, 185);
+    width: 600px;
+    border-radius: 20px;
+    /* position: absolute; */
+    transition: 0.2s ease-in-out;
+    height: 840px;
+}
+.car-image{
+    width: 100%;
+    border-radius: 20px;
+
+}
+.car-image1{
+    width: 600px;
+    height: 840px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.image-container{
+    position: relative;
+}
+
+.card:hover{
+   opacity: 0.9;
+   cursor: pointer;
+   
+}
+
+.title-car{
+    position: absolute;
+  top: 20px; /* Adjust as needed */
+  left: 20px; /* Adjust as needed */
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 4px;
+}

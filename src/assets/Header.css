@@ -1,0 +1,62 @@
+@import url('https://fonts.cdnfonts.com/css/meinily');
+@import url('https://fonts.cdnfonts.com/css/tasa-explorer');
+@import url('https://fonts.cdnfonts.com/css/utendo');
+@import url('https://fonts.cdnfonts.com/css/hongaria-2');
+@import url('https://fonts.cdnfonts.com/css/spoof-trial');
+@import url('https://fonts.cdnfonts.com/css/br-segma');
+@import url('https://fonts.cdnfonts.com/css/wix-madefor-display');
+@import url('https://db.onlinewebfonts.com/c/c4e765424706ec43739906cc82cb8c77?family=Albra+Grotesk+Regular-Traced-Web');
+
+
+@font-face {
+    font-family: "Albra Grotesk Regular-Traced-Web";
+    src: url("https://db.onlinewebfonts.com/t/c4e765424706ec43739906cc82cb8c77.eot");
+    src: url("https://db.onlinewebfonts.com/t/c4e765424706ec43739906cc82cb8c77.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/c4e765424706ec43739906cc82cb8c77.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/c4e765424706ec43739906cc82cb8c77.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/c4e765424706ec43739906cc82cb8c77.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/c4e765424706ec43739906cc82cb8c77.svg#Albra Grotesk Regular-Traced-Web")format("svg");
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+    margin-bottom: 50px;
+    
+}
+
+.brand-name{
+    height: 50px;
+    font-size: 40px;
+    font-weight: 700;
+    /* padding: auto; */
+    font-family: 'TASA Explorer', sans-serif;
+    font-family: 'Utendo', sans-serif;
+    font-family: 'Spoof Trial', sans-serif;
+    font-family: 'Wix Madefor Display', sans-serif;
+    /* font-family: "Albra Grotesk Regular-Traced-Web"; */
+    margin-top: 20px;
+    width: 55.5%;
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: aqua; */
+    /* position: absolute; */
+}
+
+.login{
+    width: 20%;
+    font-size: 17px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+    align-items: center;
+    text-decoration: underline;
+    flex: 1;
+    width: 40%;
+
+    /* background-color: blanchedalmond; */
+    /* position: relative; */
+}
+
